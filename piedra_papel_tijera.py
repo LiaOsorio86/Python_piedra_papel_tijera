@@ -15,7 +15,7 @@ while seguir.lower() == 's':
     if (jugador1 == 'piedra' and jugador2 == 'tijera') or\
        (jugador1=='tijera' and jugador2=='papel')or\
        (jugador1=='papel' and jugador2=='piedra'):
-            print (nombrejugador1, 'ha ganado')
+        print (nombrejugador1, 'ha ganado')
     else: 
         print (nombrejugador2, 'ha ganado')
         
